@@ -1,0 +1,27 @@
+body{
+    display: flex;
+}
+.input{
+    border:2px solid cornflowerblue;
+    border-radius: 2rem;
+    height: 50px;
+    width: 250px;
+    }
+
+.input-success{
+    border:2px solid lightgreen;
+}
+.input-warning{
+    border: 2px solid orange;
+}
+.input-danger{
+    border:2px solid red;
+
+}
+
+.new{
+    display: flex;
+    margin: 50px;
+    
+    justify-content: flex-start;
+}

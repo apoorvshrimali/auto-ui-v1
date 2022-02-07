@@ -1,0 +1,106 @@
+body{
+  
+    display: flex;
+
+}
+.v-card{
+    height: 375px;
+    width: 300px;
+    overflow: hidden;
+background-color: white;
+border-radius: 10px;
+box-shadow: -10px 10px 5px 3px #00000025;
+
+}
+.v-card-img{
+    width: 100%;
+    height: 60%;
+
+}
+.v-card-content{
+    padding: 1rem 1rem;
+    
+
+}
+.v-card-heading{
+    margin: 0;
+
+}
+.v-card-text{
+    color: rgb(102, 99, 99);
+    margin: 0.5rem 0;
+
+}
+.v-card-pricing{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+
+
+}
+.v-card-price{
+    font-size: 18px;
+    font-weight: bold;
+    }
+    .v-card-value{
+        font-size: 18px;
+     text-decoration: line-through;
+        color: #7e818c;
+
+    }
+
+
+    .v-card-discount{
+        color:#ff905a;
+
+
+    }
+
+    .h-card{
+        height: 200px;
+        width: 800px;
+        display: flex;
+        background-color: white;
+        
+    }
+
+    .h-card-img{
+        height: 100%;
+        width: 300px;
+    }
+    .h-card-content{
+        padding: 1rem 1rem;
+
+    }
+    .h-card-heading{
+        margin: 0;
+
+    }
+    .h-card-text{
+        color: rgb(102, 99, 99);
+        margin: 0.5rem 0;
+    }
+    .h-card-pricing{
+       display: flex;
+        column-gap: 10px;
+        align-items: center;
+    justify-content: flex-end;
+    
+    }
+    .h-card-price{
+        font-size: 18px;
+        font-weight: bold;
+        }
+        .h-card-value{
+            font-size: 18px;
+         text-decoration: line-through;
+            color: #7e818c;
+    
+        }
+    
+    
+        .h-card-discount{
+            color:#ff905a;
+    
+    
+        }

@@ -1,0 +1,23 @@
+body{
+  display: flex;
+}
+.icon-badge {
+  position: absolute;
+ 
+  
+  }
+  .icon{
+    position: relative;
+    top: 0;
+    right: 0;
+ 
+    color: red;
+    
+    height: 50px;
+    width: 50px;
+
+  }
+  .new-icon{
+      display: flex;
+column-gap: 20px;
+  }

@@ -1,0 +1,7 @@
+<link src="https://auto-ui/alert/alert.css" rel="styylesheet">
+<link src="https://auto-ui/avtar/avtar.css" rel="styylesheet">
+<link src="https://auto-ui/button/button.css" rel="styylesheet">
+<link src="https://auto-ui/input/input.css" rel="styylesheet">
+<link src="https://auto-ui/icon/icon.css" rel="styylesheet">
+<link src="https://auto-ui/card/card.css" rel="styylesheet">
+

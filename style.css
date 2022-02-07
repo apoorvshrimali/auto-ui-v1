@@ -23,10 +23,11 @@ font-family: 'Roboto', sans-serif;
    color:var(--secondary-color);
    display: flex;
    column-gap: 20px;
- 
-
 }
-
+.nav a{
+  color: white;
+  text-decoration: none;
+}
 
 .contaner{
     display: flex;
@@ -41,5 +42,43 @@ font-family: 'Roboto', sans-serif;
     border: 3px solid var(--primary-color);
     border-radius: 1rem;
 
+
+}
+.sidenav{
+  width: 15%;
+margin-right: 5rem;
+z-index: 1;
+top: 20px;
+left: 10px;
+background:whitesmoke;
+overflow-x: hidden;
+border-right:1px solid #00000025;
+padding: 8px 0;
+
+}
+
+.sidenav a{
+  padding: 10px 8px 10px 1.5rem;
+text-decoration: none;
+font-size: 16px;
+color: black;
+display: block;
+
+
+}
+.sidenav p{
+line-height: 24px;
+border-bottom: 1px solid #00000025;
+font-weight: 500;
+padding-left: 1rem;
+}
+
+
+.full{
+width: 70%;
+
+}
+.sidenav a:hover{
+background-color: #00000008;
 
 }

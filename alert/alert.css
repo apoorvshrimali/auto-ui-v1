@@ -1,0 +1,28 @@
+body{
+   
+    display: flex;
+    
+}
+.h1{
+    background-color: darkseagreen;
+
+}
+.alert{
+    padding:20px;
+    color:whitesmoke;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+}
+.alert-danger{
+    background-color: rgb(197, 45, 45);
+}
+.alert-sucess{
+    background-color: rgb(64, 138, 64);
+}
+.alert-info{
+   background-color: rgb(65, 65, 105);
+}
+
+.alert-warning{
+    background-color: rgb(199, 143, 39);    
+}

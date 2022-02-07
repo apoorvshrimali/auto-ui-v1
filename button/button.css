@@ -1,0 +1,77 @@
+body{
+    display: flex;
+}
+.btn{
+    padding:10px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    border-radius: 1rem;
+    width: 75px;
+    font-weight: bold;
+    border: 2px solid;
+}
+
+.btn-save{
+    background-color: white;
+    color:cornflowerblue;
+    border: 2px solid;
+    border-radius: 25px;
+}
+.btn-save:hover{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.btn-cancel{
+    background-color: white;
+    color:tomato;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.btn-cancel:hover{
+    background-color: tomato;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.btn-danger{
+    background-color: tomato;
+    color: brown;
+}
+.btn-danger:hover{
+    color:whitesmoke;
+
+}
+.btn-outline{
+    
+    background-color: white;
+    color: cadetblue;
+}
+.btn-outline:hover{
+    color:white;
+    background-color: darkgreen;
+
+}
+.btn-nooutline{
+    padding:0;
+    background-color: white;
+    color: darkolivegreen;
+    height: 40px;
+    width: auto;
+    border: 0;
+
+}
+.btn-nooutline:hover{
+    background-color:rgb(203, 229, 149);
+}
+.btn-link{
+   border: 0;
+    background-color: white;
+    color: cadetblue;
+    border-radius: 0rem;
+    padding: 0;
+    height: 40px;
+    width: auto;
+font-weight: bold;
+
+}
