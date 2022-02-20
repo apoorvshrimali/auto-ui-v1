@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>auto-ui | button</title>
+    <title>auto-ui | modal-box</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/vs2015.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/go.min.js"></script>
+
 </head>
 <body>
     <div class="sidenav">
@@ -27,41 +28,27 @@
             <a href="/icon/icon.html">Icons</a>
             <a href="/input/input.html">Inputs</a>
             <a href="/card/card.html">Cards</a>
-            <a href="/responsive/image.html">Responsive Images</a>
+            <a href="/responsive/">Responsive Images</a>
             <a href="/typography/typography.html">Typography</a>
             <a href="/modal/modal.html">Modal-Box</a>
           </div>
-         
         </div>
-        <div class="full">
-    <h1>Buttons</h1>
-    <p>This Component Has 9 Buttons!!!</p>
+          <div class="full">
 
-<div>
-    <button class="btn">Submit</button>
-<button class="btn btn-danger">Danger</button>
-<button class="btn btn-outline">Checkout</button>
-<button class="btn btn-nooutline">Add To Cart</button>
-<button class="btn btn-link">Visit store</button>
-<button class="btn btn-save">Save</button>
-<button class="btn btn-cancel">Cancel</button>
+<button class="myBtn">Open Modal</button>
+
+
+<div class="myModal" class="modal">
+
+ 
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
 
 </div>
-<div class="code ">
-    <pre>
-        <code class="lang-html hljs">
-            &lt;div class="badge-container" &gt;
-            &lt;div class="badge" &gt;1 &lt;/div &gt;
-            &lt;button class="btn btn-danger"&gt;Danger&lt;/button&gt;
-            &lt;button class="btn btn-outline"&gt;Checkout&lt;/button&gt;
-            &lt;button class="btn btn-nooutline"&gt;Add To Cart&lt;/button&gt;
-            &lt;button class="btn btn-link"&gt;Visit store&lt;/button&gt;
-            &lt;button class="btn btn-save"&gt;Save&lt;/button&gt;
-            &lt;button class="btn btn-cancel"&gt;Cancel&lt;/button&gt;
-            </code>
-    </pre>
-   </div>
-</div>
-<script>hljs.highlightAll();</script>
+
+
+        <script>hljs.highlightAll();</script> 
 </body>
 </html>

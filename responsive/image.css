@@ -1,0 +1,22 @@
+body{
+    display: flex;
+}
+  .image-rounded {
+    width: 50%;
+  height: 50%;
+  border-radius: 50%;
+ 
+
+  }
+  .image-fm{
+      width: 30%;
+      height: 30%;
+   border-radius: 50%;   
+  }
+
+ 
+  .image-hm{
+      height: 10%;
+      width: 10%;
+      border-radius: 50%;
+  }
