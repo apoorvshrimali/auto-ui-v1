@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    background-color: var(--third-color);
+
+}
+.grid-container{
+   display: grid;
+   column-gap: 50%;
+   row-gap: 50%;
+   grid-column-start: 1;
+   grid-column-end: 2;
+   border: 2px solid #000000;
+   width: 75%; 
+
+}

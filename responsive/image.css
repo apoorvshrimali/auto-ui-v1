@@ -1,5 +1,6 @@
 body{
     display: flex;
+    background-color: var(--third-color);
 }
   .image-rounded {
     width: 50%;

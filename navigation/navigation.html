@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>auto-ui | modal-box</title>
+    <title>auto-ui | alert</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="navigation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/vs2015.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/go.min.js"></script>
 
 </head>
 <body>
+    
     <div class="sidenav">
         <div class="getting-started">
           <p>GETTING STARTED</p>
@@ -28,7 +29,7 @@
             <a href="/icon/icon.html">Icons</a>
             <a href="/input/input.html">Inputs</a>
             <a href="/card/card.html">Cards</a>
-            <a href="/responsive/">Responsive Images</a>
+            <a href="/responsive/image.html">Responsive Images</a>
             <a href="/typography/typography.html">Typography</a>
             <a href="/modal/modal.html">Modal-Box</a>
             <a href="/navigation/navigation.html">Navigation</a>
@@ -38,39 +39,38 @@
             <a href="/rating/rating.html">Ratings</a>
             <a href="/grid/grid.html">Grid</a>
           </div>
+         
         </div>
-          <div class="full">
 
-<button class="myBtn">Open Modal</button>
-
-
-<div class="myModal" class="modal">
-
- 
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
-
+    <div  class ="flex-container">
+<h1 class="logo">Logo</h1>
+<div class="navbar-items">
+ <a href="/navigation/home.html">Home</a>
+<a href="/navigation/products.html">Products</a>
+<a href="/navigation/service.html">Services</a>
+<a href="/navigation/contact.html">Contact Us</a>
 </div>
 
-<div class="code ">
-  <pre>
-      <code class="lang-html hljs">
+
+    </div>
+
+
+    <div class="code ">
+        <pre>
+            <code class="lang-html hljs">
+          
+                &lt;h1 class="logo"&gt;Logo&lt;/h1&gt;
+&lt;div class="navbar-items"&gt;
+ &lt;a href="/navigation/home.html"&gt;Home&lt;/a&gt;
+&lt;a href="/navigation/products.html"&gt;Products&lt;/a&gt;
+&lt;a href="/navigation/service.html"&gt;Services&lt;/a&gt;
+&lt;a href="/navigation/contact.html"&gt;Contact Us&lt;/a&gt;
+          
+                </code>
+        </pre>
+       </div>
+
     
-        &lt;button class="myBtn"&gt;Open Modal&lt;/button&gt;
-
-
-        &lt;div class="myModal" class="modal"&gt;
-        
-         
-          &lt;div class="modal-content"&gt;
-            &lt;span class="close"&gt;&times;&lt;/span&gt;
-            &lt;p&gt;Some text in the Modal..&lt;/p&gt;
-        
-          </code>
-  </pre>
- </div>
-        <script>hljs.highlightAll();</script> 
+    <script>hljs.highlightAll();</script>
 </body>
 </html>

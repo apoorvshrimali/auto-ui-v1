@@ -1,7 +1,7 @@
 body{
   
     display: flex;
-
+background-color: var(--third-color);
 }
 .v-card{
     height: 375px;

@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>auto-ui | modal-box</title>
+    <title>auto-ui | list</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="list.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/vs2015.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/go.min.js"></script>
 
 </head>
 <body>
+    
     <div class="sidenav">
         <div class="getting-started">
           <p>GETTING STARTED</p>
@@ -28,7 +29,7 @@
             <a href="/icon/icon.html">Icons</a>
             <a href="/input/input.html">Inputs</a>
             <a href="/card/card.html">Cards</a>
-            <a href="/responsive/">Responsive Images</a>
+            <a href="/responsive/image.html">Responsive Images</a>
             <a href="/typography/typography.html">Typography</a>
             <a href="/modal/modal.html">Modal-Box</a>
             <a href="/navigation/navigation.html">Navigation</a>
@@ -37,40 +38,48 @@
             <a href="/list/list.html">list</a>
             <a href="/rating/rating.html">Ratings</a>
             <a href="/grid/grid.html">Grid</a>
+
           </div>
-        </div>
-          <div class="full">
-
-<button class="myBtn">Open Modal</button>
-
-
-<div class="myModal" class="modal">
-
- 
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
-
-</div>
-
-<div class="code ">
-  <pre>
-      <code class="lang-html hljs">
-    
-        &lt;button class="myBtn"&gt;Open Modal&lt;/button&gt;
-
-
-        &lt;div class="myModal" class="modal"&gt;
-        
          
-          &lt;div class="modal-content"&gt;
-            &lt;span class="close"&gt;&times;&lt;/span&gt;
-            &lt;p&gt;Some text in the Modal..&lt;/p&gt;
-        
-          </code>
-  </pre>
- </div>
-        <script>hljs.highlightAll();</script> 
+        </div>
+<div class="full">
+    <h1>This is Spaced List Items</h1>
+    <ul class="list-container">
+        <li class="items" >Milk</li>
+        <li class="items">Eggs</li>
+        <li class="items">Bread</li>
+        <li class="items">Vegetables</li>
+    </ul>
+
+    <h1>This Is Stacked List Items</h1>
+    <li class="items-stacked">Milk</li>
+    <li class="items-stacked" >Eggs</li>
+    <li class="items-stacked">Bread</li>
+    <li class="items-stacked">Vegetables</li>
+    </div>
+
+
+    <div class="code ">
+        <pre>
+            <code class="lang-html hljs">
+          
+                &lt;h1&gt;This is Spaced List Items&lt;/h1&gt;
+                &lt;ul class="list-container"&gt;
+                    &lt;li class="items" &gt;Milk&lt;/li&gt;
+                    &lt;li class="items"&gt;Eggs&lt;/li&gt;
+                    &lt;li class="items"&gt;Bread&lt;/li&gt;
+                    &lt;li class="items"&gt;Vegetables&lt;/li&gt;
+                &lt;/ul&gt;
+            
+                &lt;h1&gt;This Is Stacked List Items&lt;/h1&gt;
+                &lt;li class="items-stacked"&gt;Milk&lt;/li&gt;
+                &lt;li class="items-stacked" &gt;Eggs&lt;/li&gt;
+                &lt;li class="items-stacked"&gt;Bread&lt;/li&gt;
+                &lt;li class="items-stacked"&gt;Vegetables</li&gt;
+
+            </code>
+        </pre>
+       </div>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>

@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    background-color: var(--third-color);
+
+}
+.list-container{
+    font-size: medium;
+    text-decoration: none;
+
+}
+.items{
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+
+}
+.items-stacked{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+border: 2px solid #000000;
+border-radius: 10px;
+box-shadow: 4px 5px ;
+width: 75%;
+
+}

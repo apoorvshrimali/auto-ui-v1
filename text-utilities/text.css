@@ -1,0 +1,30 @@
+body{
+    display: flex;
+   background-color:var(--third-color) ;
+   
+
+
+}
+.heading{
+    font-size: larger;
+    font-weight: bold;
+
+}
+.small-text{
+    font-size: small;
+    font-weight: 300;
+
+
+}
+.gray{
+    color: gray;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.centre{
+   display: flex;
+   justify-content: center;
+
+
+}
