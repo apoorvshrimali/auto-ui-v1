@@ -1,7 +1,9 @@
-&lt;h1&gt;This is The rating format&lt;/h1&gt;
-    &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;
-    &lt;span&gt; class="fa fa-star checked"&gt;&lt;/span&gt;
-    &lt;span&gt; class="fa fa-star checked"&gt;&lt;/span&gt;
-    &lt;span&gt; class="fa fa-star checked"&gt;&lt;/span&gt;
-    &lt;span&gt; class="fa fa-star"&gt;&lt;/span&gt;
-    &lt;span&gt; class="fa fa-star"&gt;&lt;/span&gt;
+&lt;button class="myBtn"&gt;Open Modal&lt;/button&gt;
+
+
+&lt;div class="myModal" class="modal"&gt;
+
+ 
+  &lt;div class="modal-content"&gt;
+    &lt;span class="close"&gt;&times;&lt;/span&gt;
+    &lt;p&gt;Some text in the Modal..&lt;/p&gt;
